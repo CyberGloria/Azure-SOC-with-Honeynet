@@ -7,7 +7,6 @@ This project will consists of creating my very own honeynet on Microsoft Azure t
 ## Objectives
 The main objective of this project is to create a honeynet that will allow me to analyze live cyberattacks, conduct incident response and investigate event alerts, study attackers to understand their intentions, tactics, techniques, and procedures.  The second objective is to transform the unsecure environment into a secure environment by re-configuring the firewall, NGS, implementing Azure Private Links, and administering regulatory compliance, such as, NIST 800-53, PCI DSS. CIS, and Microsoft Defender for Cloud recommendations.  
 
-Lets go on a journey together to turn the unsecure environment into a secure environment.
 
 ## Before Hardening
 
@@ -19,20 +18,17 @@ Lets go on a journey together to turn the unsecure environment into a secure env
 
 ## Technologies, Regulations, and Azure Components Employed:
 
-
-
-## Methodology
-
-- <b>*Phase I - Creating a Vulnerable Honeynet*</b>: 
-- 
-- <b>*Phase II - Logging and Monitoring*</b>: 
-
-- <b>*Phase III - Analysis, Incident Response & Vulnerability Assessment*</b>: 
-- 
-- <b>*Phase IV - Remediation & Standards Implementation*</b>: 
-- 
-- <b>*Phase V - Results & Metrics Comparison*</b>: 
-
+- Virtual Network (VNet)
+- Network Security Group (NSG)
+- Virtual Machines (2 windows, 1 linux)
+- Log Analytics Workspace for performing Kusto Query (KQL) queries to filters data
+- Azure Key Vault to securely store secrets 
+- Azure Storage Account for storing data 
+- Microsoft Sentinel for Security Information and Event Management (SIEM)
+- Microsoft Defender for Cloud to monitor resources and ingest logs from virtual machines into Log Analytic Workspace
+- Powershell
+- Command Line Interface (CLI) to verify connection to virtual machine
+- Windows Remote Desktop to remotely connect to virtual machines
 
 ## Phase I - Creating the honeynet 
 
