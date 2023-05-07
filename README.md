@@ -30,8 +30,12 @@ The main objective of this project is to create a honeynet that will allow me to
 - Command Line Interface (CLI) to verify connection to virtual machine
 - Windows Remote Desktop to remotely connect to virtual machines
 
-## Phase I - Creating the honeynet 
+## Phase I - Creating The Honeynet 
+In this phase, I will be creating a Windows virtual machine.  Aferward, I will intentionally configure the firewall and NGS to allow all traffics from all ports. Additionally, I will also disable everything in Microsoft Defender Firewall.  This will create the vulnerable internet facing environment to attract attackers on the internet.  
 
+![Firewallrule](https://i.imgur.com/QNfVI72.jpg)
+
+![Firewallrule](https://i.imgur.com/G3LRDMW.jpg)
 
 ## Phase II - Logging and Monitoring
 
