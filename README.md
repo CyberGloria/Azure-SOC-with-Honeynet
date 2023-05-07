@@ -35,9 +35,9 @@ The main objective of this project is to create a honeynet that will allow me to
 
 ## Phase II - Logging and Monitoring
 
-## Phase III - Analysis, Incident Response & Vulnerability Assessment
+## Phase III - Analysis, Incident Assessment and Response
 
-## Phase IV - Remediation & Standards Implementation
+## Phase IV - Remediation & Regulatory Compliance Implementations
 
 ## Phase V - Results & Metrics Comparison
 
