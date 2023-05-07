@@ -26,7 +26,7 @@ The main objective of this project is to create a honeynet that will allow me to
 - Azure Storage Account for storing data 
 - Microsoft Sentinel for Security Information and Event Management (SIEM)
 - Microsoft Defender for Cloud to monitor resources and ingest logs from virtual machines into Log Analytic Workspace
-- Powershell
+- Powershell for performing simulated attacks
 - Command Line Interface (CLI) to verify connection to virtual machine
 - Windows Remote Desktop to remotely connect to virtual machines
 
@@ -38,6 +38,7 @@ In this phase, I will be creating a Windows virtual machine.  Aferward, I will i
 ![Firewallrule](https://i.imgur.com/G3LRDMW.jpg)
 
 ## Phase II - Logging and Monitoring
+In this phase, I will be executing KQL queries to 
 
 ## Phase III - Analysis, Incident Assessment and Response
 
