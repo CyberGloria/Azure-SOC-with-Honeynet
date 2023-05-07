@@ -31,16 +31,32 @@ The main objective of this project is to create a honeynet that will allow me to
 - Windows Remote Desktop to remotely connect to virtual machines
 
 ## Phase I - Creating The Honeynet 
-In this phase, I will be creating a Windows virtual machine.  Aferward, I will intentionally configure the firewall and NGS to allow all traffics from all ports. Additionally, I will also disable everything in Microsoft Defender Firewall.  This will create the vulnerable internet facing environment to attract attackers on the internet.  
+In this phase, I created a Windows virtual machine.  Aferward, I  intentionally configured the firewall and NGS to allow all traffics from all ports. Additionally, I disabled everything in Microsoft Defender Firewall.  This created the vulnerable internet facing environment that will attract attackers.  
 
 ![Firewallrule](https://i.imgur.com/QNfVI72.jpg)
 
 ![Firewallrule](https://i.imgur.com/G3LRDMW.jpg)
 
-## Phase II - Logging and Monitoring
-In this phase, I will be executing KQL queries to 
+## Phase II - Simulated Attacks & Logging and Monitoring
+In this phase, simulated attacks were executed using Powershell to manually trigger events.  These simulated attacks consist of Brute Force Attempt, Malware(EICAR Test File), AAD Brute Force Success, Privilege Escalation, Windows Brute Force Success.  Afterward, I utilized KQL queries to filter data from different logs to analyze these triggered events performed by me and also alerts from actual attackers.  
 
-## Phase III - Analysis, Incident Assessment and Response
+SignInLogs for invalid username or password event alerts
+
+![Firewallrule](https://i.imgur.com/9qKPvnG.jpg)
+
+![Firewallrule](https://i.imgur.com/9A449Il.jpg)
+
+SecuityEvent logs display brute force attacks against Windows virtual machines 
+
+![Firewallrule](https://i.imgur.com/CyT6QZq.jpg)
+
+![Firewallrule](https://i.imgur.com/y8sQDD1.jpg)
+
+Syslog display failed password against Linux virtual machine
+
+![Firewallrule](https://i.imgur.com/IsEDYY7.jpg)
+
+## Phase III - Analysis & Incident Assessment and Response
 
 ## Phase IV - Remediation & Regulatory Compliance Implementations
 
