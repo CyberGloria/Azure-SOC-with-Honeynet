@@ -1,4 +1,4 @@
-# Azure Honeynet Project: Simulating Real-World Cyber Attacks
+# Azure Honeynet Project
 ![Cloud Honeynet / SOC](https://i.imgur.com/S6whvfs.png)
 
 ## Introduction
