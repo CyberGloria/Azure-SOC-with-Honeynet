@@ -31,7 +31,7 @@ The main objective of this project is to create a honeynet that will allow me to
 - Windows Remote Desktop to remotely connect to virtual machines
 
 ## Phase I - Creating The Honeynet 
-In this phase, I created a Windows virtual machine.  Aferward, I  intentionally configured the firewall and NGS to allow all traffics from all ports. Additionally, I disabled everything in Microsoft Defender Firewall.  This created the vulnerable internet facing environment that will attract attackers.  
+In this phase, I created a Windows virtual machine.  Afterward, I  intentionally configured the firewall and NGS to allow all traffics from all ports. Additionally, I disabled everything in Microsoft Defender Firewall.  This created the vulnerable internet facing environment that will attract attackers.  
 
 ![Firewallrule](https://i.imgur.com/QNfVI72.jpg)
 
@@ -62,9 +62,12 @@ Syslog display failed password against Linux virtual machine
 
 ## Phase V - Results & Metrics Comparison
 
- 
+
+
+## Reflection
+
+
 
 ## Conclusion
 
 
-## Reflection
