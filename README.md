@@ -58,7 +58,7 @@ Syslog display failed password against Linux virtual machine
 
 ## Phase III - Analysis & Incident Assessment and Response
 
-## Phase IV - Remediation & Regulatory Compliance Implementations
+## Phase IV - Remediation & Regulatory Compliance Implementation
 
 ## Phase V - Results & Metrics Comparison
 
