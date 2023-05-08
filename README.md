@@ -14,7 +14,7 @@ The main objective of this project is to create a honeynet that will allow me to
 
 ## After Hardening
 
-![After](https://i.imgur.com/Wi0dRnQ.png)
+![After](https://i.imgur.com/pwJqFZt.png)
 
 ## Technologies, Regulations, and Azure Components Employed:
 
